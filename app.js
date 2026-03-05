@@ -95,6 +95,8 @@ function render() {
 
     if (i < lista.length) {
       a.href = lista[i].url;
+      a.target = "_blank";
+      a.rel = "noopener";
       a.innerHTML = `<span>${lista[i].titulo}</span>`;
       a.title = `${lista[i].cat} · ${lista[i].titulo}`;
     } else {
@@ -123,3 +125,4 @@ window.addEventListener("resize", () => {
   t = setTimeout(render, 120);
 
 });
+
