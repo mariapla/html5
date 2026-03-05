@@ -1,0 +1,116 @@
+*{ box-sizing:border-box; margin:0; padding:0; font-family:system-ui; }
+
+body{ height:100vh; background:#0b0f1a; overflow:hidden; }
+
+/* HUD arriba */
+.hud{
+  position:fixed;
+  top:14px; left:14px; right:14px;
+  z-index:10;
+  display:flex;
+  gap:12px;
+  align-items:flex-end;
+  justify-content:space-between;
+  pointer-events:none; /* para que no “mate” los links */
+}
+
+.title{
+  pointer-events:auto;
+  padding:12px 14px;
+  border-radius:16px;
+  background:rgba(0,0,0,.35);
+  border:1px solid rgba(255,255,255,.14);
+  backdrop-filter: blur(10px);
+  color:#fff;
+  text-shadow: 0 10px 30px rgba(0,0,0,.55);
+}
+.title h1{ font-size:22px; line-height:1.1; }
+.title p{ opacity:.75; font-size:13px; margin-top:2px; }
+
+.chips{
+  pointer-events:auto;
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  align-items:center;
+  justify-content:flex-end;
+}
+
+.chip{
+  border:1px solid rgba(255,255,255,.16);
+  background:rgba(0,0,0,.28);
+  color:#fff;
+  padding:9px 12px;
+  border-radius:999px;
+  cursor:pointer;
+  font-size:13px;
+  backdrop-filter: blur(10px);
+}
+.chip[aria-pressed="true"]{
+  background:rgba(255,255,255,.14);
+  border-color:rgba(255,255,255,.28);
+}
+
+/* GRID: ocupa EXACTO el viewport */
+#grid{
+  position:fixed;
+  inset:0;
+  display:grid;
+  width:100vw;
+  height:100vh;
+  gap:0;
+}
+
+/* Cada tile enlazable */
+.tile{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:14px;
+  text-decoration:none;
+  color:rgba(255,255,255,.92);
+  font-weight:700;
+  font-size:14px;
+  letter-spacing:.2px;
+
+  border:1px solid rgba(255,255,255,.08);
+  transition: transform .18s ease, filter .18s ease;
+  position:relative;
+  overflow:hidden;
+}
+
+/* “brillito” */
+.tile::after{
+  content:"";
+  position:absolute;
+  inset:-40%;
+  background: linear-gradient(110deg, transparent 35%, rgba(255,255,255,.18), transparent 65%);
+  transform: translateX(-60%) rotate(12deg);
+  opacity:.65;
+  transition: transform .35s ease;
+  pointer-events:none;
+}
+
+.tile:hover{
+  transform: scale(1.04);
+  filter: brightness(1.12);
+  z-index:2;
+}
+.tile:hover::after{
+  transform: translateX(25%) rotate(12deg);
+}
+
+/* Los rellenos */
+.tile.filler{
+  pointer-events:none;
+  filter:saturate(.9);
+  opacity:.85;
+}
+
+/* Texto más legible */
+.tile span{
+  position:relative;
+  z-index:1;
+  text-shadow: 0 10px 20px rgba(0,0,0,.35);
+}
