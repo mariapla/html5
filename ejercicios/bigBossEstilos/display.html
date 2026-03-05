@@ -1,1 +1,67 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="img/skull-solid-full.svg" type="image/x-icon">
+    <title>BigBoss | Display</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Propiedad <code>display</code></h1>
+            <a href="index.html" class="button"><i class="fa-solid fa-arrow-left fa-2xl"
+                    style="color: #f9064f;"></i></a>
+        </header>
+
+        <section class="card">
+            <h2>Inline vs Block</h2>
+            <p class="note">Los elementos <em>inline</em> no rompen línea; los <em>block</em> ocupan todo el ancho
+                disponible.</p>
+            <div class="fila inline">
+                <span class="item">inline</span><span class="item">fluye</span><span class="item">en línea</span>
+            </div>
+            <div class="hr"></div>
+            <div class="fila block">
+                <div class="item">block 1</div>
+                <div class="item">block 2</div>
+                <div class="item">block 3</div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Inline-block</h2>
+            <p class="note">Los elementos <em>inline-block</em> se comportan como los <em>inline</em> pero podemos
+                controlar sus medidas</p>
+            <div class="fila inline-block">
+                <div class="item ib">A</div>
+                <div class="item ib">B</div>
+                <div class="item ib">C</div>
+            </div>
+            <!-- Try it: cambia width a 80px o 160px y observa los saltos de línea -->
+        </section>
+
+        <section class="card">
+            <h2>Flex</h2>
+            <p class="note">Propiedades de padre y propiedades de hijo. </p>
+            <p class="note">Eje principal y eje transversal</p>
+            <div class="fila flex-row">
+                <div class="item">1</div>
+                <div class="item">2</div>
+                <div class="item">3</div>
+                <div class="item">4</div>
+                <div class="item">5</div>
+            </div>
+            <!-- Try it: cambia justify-content a center / space-around; quita flex:1 -->
+        </section>
+    </div>
+    <script src="https://kit.fontawesome.com/0bc510ca7a.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
