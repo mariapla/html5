@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="img/skull-solid-full.svg" type="image/x-icon">
+    <title>BigBoss | Display</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Propiedad <code>position</code></h1>
+            <a href="index.html" class="button"><i class="fa-solid fa-arrow-left fa-2xl"
+                    style="color: #f9064f;"></i></a>
+        </header>
+
+        <section class="card">
+            <h2>Relative vs Absolute</h2>
+            <div class="relative">
+                
+                <div class="caja rel1">Rel 1 </div>
+                <div class="caja rel2">Rel 2 </div>
+               
+            </div>
+             <div class="absolute">
+                
+                <div class="caja abs1" >Abs 1</div>
+                <div class="caja abs2" >Abs 2</div>
+            </div>
+            <!-- Try it: quita position:relative de .stage y observa dónde cae el absolute -->
+        </section>
+
+        <section class="card">
+            <h2>Fixed</h2>
+            <p>Desplázate la página; el botón queda fijado a la ventana.</p>
+            <a href="#" class="up" ><i class="fa-solid fa-arrow-up fa-2xl" style="color: #f70264;"></i></a>
+        </section>
+
+        <section class="card">
+            <h2>Sticky</h2>
+            <div class="card" style="max-height: 200px; overflow:auto;">
+                <div class="sticky">Cabecera sticky</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id magna eget orci dignissim
+                    condimentum.</p>
+                <p>Contenido repetido para forzar scroll…</p>
+                <p>Contenido repetido para forzar scroll…</p>
+                <p>Contenido repetido para forzar scroll…</p>
+                <p>Contenido repetido para forzar scroll…</p>
+                <p>Contenido repetido para forzar scroll…</p>
+                <p>Contenido repetido para forzar scroll…</p>
+                 <p>Contenido repetido para forzar scroll…</p>
+                <p>Contenido repetido para forzar scroll…</p>
+                <p>Contenido repetido para forzar scroll…</p>
+                <p>Contenido repetido para forzar scroll…</p>
+                <p>Contenido repetido para forzar scroll…</p>
+                <p>Contenido repetido para forzar scroll…</p>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Z-index</h2>
+            <div class="zindex">
+                <div class="zindex1" style="position:absolute; left:30px; top:30px; z-index:1">z:1</div>
+                <div class="zindex2" style="position:absolute; left:50px; top:50px; z-index:2">z:2</div>
+                <div class="zindex3" style="position:absolute; left:70px; top:70px; z-index:3">z:3</div>
+            </div>
+            <!-- Try it: añade transform: translateZ(0) para crear stacking context -->
+        </section>
+
+    </div>
+    <script src="https://kit.fontawesome.com/0bc510ca7a.js" crossorigin="anonymous"></script>
+</body>
