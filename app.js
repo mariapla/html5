@@ -1,6 +1,6 @@
 const EJERCICIOS = [
   // HTML+CSS
-  { titulo: "Selectores CSS", url: "ejercicios/selectores/", cat: "HTML+CSS" },
+  { titulo: "Big Boss Estilos", url: "ejercicios/bigBossEstilos/", cat: "HTML+CSS" },
   { titulo: "Flexbox Layout", url: "ejercicios/flexbox/", cat: "HTML+CSS" },
   { titulo: "Grid básico", url: "ejercicios/grid/", cat: "HTML+CSS" },
 
@@ -121,4 +121,5 @@ let t = null;
 window.addEventListener("resize", () => {
   clearTimeout(t);
   t = setTimeout(render, 120);
+
 });
