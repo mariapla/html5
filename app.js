@@ -1,7 +1,7 @@
 const EJERCICIOS = [
   // HTML+CSS
   { titulo: "Big Boss Estilos", url: "ejercicios/bigBossEstilos/", cat: "HTML+CSS" },
-  { titulo: "Flexbox Layout", url: "ejercicios/flexbox/", cat: "HTML+CSS" },
+  { titulo: "Adivinar Número", url: "ejercicios/adivinarNumero/", cat: "HTML+CSS+JS" },
   { titulo: "Grid básico", url: "ejercicios/grid/", cat: "HTML+CSS" },
 
   // JavaScript
@@ -125,4 +125,5 @@ window.addEventListener("resize", () => {
   t = setTimeout(render, 120);
 
 });
+
 
