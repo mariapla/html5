@@ -71,7 +71,7 @@ body{ height:100vh; background:#0b0f1a; overflow:hidden; }
   text-decoration:none;
   color:rgba(255,255,255,.92);
   font-weight:700;
-  font-size:14px;
+  font-size:2em;
   letter-spacing:.2px;
 
   border:1px solid rgba(255,255,255,.08);
@@ -113,4 +113,5 @@ body{ height:100vh; background:#0b0f1a; overflow:hidden; }
   position:relative;
   z-index:1;
   text-shadow: 0 10px 20px rgba(0,0,0,.35);
+
 }
