@@ -1,5 +1,5 @@
 const botonRgb = document.getElementById('rgb')
-const codigo = document.getElementById('codigoColor')
+const codigoRgb = document.getElementById('codigoColor')
 
 
 botonRgb.addEventListener('click', function(){
@@ -9,5 +9,5 @@ botonRgb.addEventListener('click', function(){
 
     document.body.style.backgroundColor = 'rgb(' + red + ',' + green + ',' + blue + ')'
     document.body.style.backgroundColor = color
-    codigo.textContent = color
+    codigoRgb.textContent = color
 })
