@@ -1,4 +1,3 @@
-
 const texto = document.querySelector('.carga')
 const fondo = document.querySelector('.fondo')
 
