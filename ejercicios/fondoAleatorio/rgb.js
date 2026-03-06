@@ -1,4 +1,4 @@
-const boton = document.getElementById('sorpresa')
+const boton = document.getElementById('rgb')
 
 boton.addEventListener('click', function(){
     let red = parseInt(Math.random()*256)
