@@ -113,7 +113,10 @@ body{ height:100vh; background:#0b0f1a; overflow:hidden; }
   position:relative;
   z-index:1;
   text-shadow: 0 10px 20px rgba(0,0,0,.35);
-   font-size: clamp(18px, 2vw, 32px);
+  font-size: clamp(16px, 1.6vw, 24px);
+  line-height: 1.2;
+  text-wrap: balance;
 }
+
 
 
