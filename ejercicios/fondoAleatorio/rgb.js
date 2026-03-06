@@ -1,6 +1,6 @@
-const boton = document.getElementById('rgb')
+const botonRgb = document.getElementById('rgb')
 
-boton.addEventListener('click', function(){
+botonRgb.addEventListener('click', function(){
     let red = parseInt(Math.random()*256)
     let green = parseInt(Math.random()*256)
     let blue = parseInt(Math.random()*256)
