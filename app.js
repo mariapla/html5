@@ -4,7 +4,7 @@ const EJERCICIOS = [
   { titulo: "Adivinar Número", url: "ejercicios/adivinarNumero/", cat: "HTML+CSS+JS" },
   { titulo: "Carga", url: "ejercicios/carga/", cat: "HTML+CSS+JS" },
   { titulo: "Color aleatorio", url: "ejercicios/fondoAleatorio/", cat: "HTML+CSS+JS" },
-  { titulo: "Arrays · Métodos", url: "ejercicios/arrays/", cat: "JavaScript" },
+  { titulo: "Arrays · Métodos", url: "ejercicios/arrays/", cat: "API" },
 ];
 
 const grid = document.getElementById("grid");
@@ -123,6 +123,7 @@ window.addEventListener("resize", () => {
   t = setTimeout(render, 120);
 
 });
+
 
 
 
