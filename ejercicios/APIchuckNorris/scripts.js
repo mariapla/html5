@@ -13,6 +13,7 @@ function actualizarCategoria(categoria){
     .then(json =>{
         print.innerHTML = json.value
     })
+    document.getElementById("chuckHero").style.display = "none";
 }
 
 const prueba = 'https://api.chucknorris.io/jokes/random?category={category}'
