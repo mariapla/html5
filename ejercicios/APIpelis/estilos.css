@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --colorMolonPrincipal: #730202;
+    --colorMolonSecundario: #A60303;
+}
+
+body{
+    background: var(--colorMolonPrincipal);
+}
+
+
+/* BUSCADOR */
+
+header {
+    padding: 1em;
+    display: flex;
+    justify-content: flex-end;
+    background: var(--colorMolonSecundario);
+}
+
+.buscar {
+    background: transparent;
+    border: 2px solid var(--colorMolonPrincipal);
+    padding: .5em 1em;
+    border-radius: 50px;
+    font-size: 1em;
+    color: ghostwhite;
+}
+
+.buscar:focus {
+    outline: 0;
+    background: var(--colorMolonPrincipal);
+}
+
+.buscar::placeholder {
+    color:rgb(183, 183, 183);
+}
+
+/* TARJETAS */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.peli {
+    width: 300px;
+    margin: 1em;
+    border-radius: 3px;
+    box-shadow: .2px .4px 5px rgba(0, 0, 0, .5);
+    background: var(--colorMolonSecundario);
+    position: relative;
+    overflow: hidden;
+}
+
+.peli img {
+    width: 100%;
+}
+
+.infoPeli {
+    color: ghostwhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5em 1em;
+    /* letter-spacing: .5px; */
+}
+
+.infoPeli h2{
+    margin-top: 0;
+    font-size: 1.3em;
+}
+
+.infoPeli span {
+    background: var(--colorMolonPrincipal);
+    padding: .2em .5em;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+/* poner color al rating */
+.infoPeli span.ratingVerde {
+    color: lightgreen;
+}
+
+.infoPeli span.ratingNaranja {
+    color: orange;
+}
+
+.infoPeli span.ratingRojo{
+    color: red;
+}
+
+.resena {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: ghostwhite;
+    padding: 1em;
+    max-height: 100%;
+    /* efecto: que aparezca desde abajo */
+    transform: translateY(101%);
+    /* el ease mejor ponerlo tras el hover de abajo, para que se vea lo que hace de verdad */
+    transition: transform 0.3s ease-in;
+}
+
+/* mostrar el contenido de la reseña oculto */
+.peli:hover .resena{
+    transform:translateY(0);
+}
