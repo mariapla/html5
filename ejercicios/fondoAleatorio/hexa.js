@@ -1,7 +1,7 @@
 const hexa = [0,1,2,3,4,5,6,7,8,9,'A','B','C','D','E','F']
 
 const botonHexa = document.getElementById('hexa')
-const codigo = document.getElementById('codigoColor')
+const codigoHexa = document.getElementById('codigoColor')
 
 botonHexa.addEventListener('click', function(){
     let color = "#"
@@ -10,5 +10,5 @@ botonHexa.addEventListener('click', function(){
     }
 
     document.body.style.backgroundColor = color
-     codigo.textContent = color
+     codigoHexa.textContent = color
 })
