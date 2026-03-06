@@ -1,4 +1,6 @@
 const botonRgb = document.getElementById('rgb')
+const codigo = document.getElementById('codigoColor')
+
 
 botonRgb.addEventListener('click', function(){
     let red = parseInt(Math.random()*256)
@@ -6,4 +8,6 @@ botonRgb.addEventListener('click', function(){
     let blue = parseInt(Math.random()*256)
 
     document.body.style.backgroundColor = 'rgb(' + red + ',' + green + ',' + blue + ')'
+    document.body.style.backgroundColor = color
+    codigo.textContent = color
 })
