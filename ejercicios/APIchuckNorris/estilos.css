@@ -15,7 +15,11 @@
     margin: 1em;
     cursor: pointer;
 }
-
+#chuckHero{
+  display:block;
+  margin:40px auto;
+  width:400px;
+}
 nav{
     text-align: right;
     display: none;
