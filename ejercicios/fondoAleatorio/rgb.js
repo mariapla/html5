@@ -8,6 +8,6 @@ botonRgb.addEventListener('click', function(){
     let blue = parseInt(Math.random()*256)
 
     document.body.style.backgroundColor = 'rgb(' + red + ',' + green + ',' + blue + ')'
-    document.body.style.backgroundColor = color
-    codigoRgb.textContent = color
+    
+    codigoRgb.textContent = 'rgb(' + red + ',' + green + ',' + blue + ')'
 })
