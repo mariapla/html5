@@ -1,11 +1,9 @@
 const EJERCICIOS = [
-  // HTML+CSS
+ 
   { titulo: "Big Boss Estilos", url: "ejercicios/bigBossEstilos/", cat: "HTML+CSS" },
   { titulo: "Adivinar Número", url: "ejercicios/adivinarNumero/", cat: "HTML+CSS+JS" },
   { titulo: "Carga", url: "ejercicios/carga/", cat: "HTML+CSS+JS" },
-
-  // JavaScript
-  { titulo: "DOM · Eventos", url: "ejercicios/dom-eventos/", cat: "JavaScript" },
+  { titulo: "Color aleatorio", url: "ejercicios/fondoAleatorio/", cat: "HTML+CSS+JS" },
   { titulo: "Arrays · Métodos", url: "ejercicios/arrays/", cat: "JavaScript" },
 ];
 
@@ -125,6 +123,7 @@ window.addEventListener("resize", () => {
   t = setTimeout(render, 120);
 
 });
+
 
 
 
