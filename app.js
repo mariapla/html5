@@ -6,6 +6,7 @@ const EJERCICIOS = [
   { titulo: "Color aleatorio", url: "ejercicios/fondoAleatorio/", cat: "HTML+CSS+JS" },
   { titulo: "API de pelis", url: "ejercicios/APIpelis/", cat: "API" },
  { titulo: "API de Chuck Norris", url: "ejercicios/APIchuckNorris/", cat: "API" },
+ { titulo: "API Meteo", url: "ejercicios/meteo/", cat: "API" },
 ];
 
 const grid = document.getElementById("grid");
@@ -124,6 +125,7 @@ window.addEventListener("resize", () => {
   t = setTimeout(render, 120);
 
 });
+
 
 
 
