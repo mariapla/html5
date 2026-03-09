@@ -7,6 +7,7 @@ const EJERCICIOS = [
   { titulo: "API de pelis", url: "ejercicios/APIpelis/", cat: "API" },
  { titulo: "API de Chuck Norris", url: "ejercicios/APIchuckNorris/", cat: "API" },
  { titulo: "API Meteo", url: "ejercicios/meteo/", cat: "API" },
+ { titulo: "DNI", url: "ejercicios/DNI/", cat: "HTML+CSS+JS" },
 ];
 
 const grid = document.getElementById("grid");
@@ -125,6 +126,7 @@ window.addEventListener("resize", () => {
   t = setTimeout(render, 120);
 
 });
+
 
 
 
