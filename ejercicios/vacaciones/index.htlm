@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="img/tabla.png">
+    <title>Vacaciones</title>
+</head>
+
+<body>
+<main>
+    
+    <nav>
+        <div class="burger">
+            <i class="fa-solid fa-bars fa-2xl"></i>
+        </div>
+        <div class="navegacion">
+            <div class="salir">
+                <i class="fa-solid fa-xmark fa-2xl"></i>
+            </div>
+            <div class="items">
+                <div class="item-1 item">
+                    <a href="#playa">Playa</a>
+                </div>
+                <div class="item-2 item">
+                    <a href="#montana">Montaña</a>
+                </div>
+                <div class="item-3 item">
+                    <a href="#luna">Luna</a>
+                </div>
+                <div class="item-4 item">
+                    <a href="#desierto">Desierto</a>
+                </div>
+                <div class="item-5 item">
+                    <a href="#spa">Spa</a>
+                </div>
+                <div class="item-6 item">
+                    <a href="#city">City Break</a>
+                </div>
+                <div class="item-7 item">
+                    <a href="#candy">Candy Kingdom</a>
+                </div>
+            </div>
+        </div>
+       
+    </nav>
+    <div class="playa vacas" id="playa">
+        <h2>Playa</h2>
+    </div>
+    <div class="montana vacas" id="montana">
+        <h2>Montaña</h2>
+    </div>
+    <div class="luna vacas" id="luna">
+        <h2>Luna</h2>
+    </div>
+    <div class="desierto vacas" id="desierto">
+        <h2>Desierto</h2>
+    </div>
+    <div class="spa vacas" id="spa">
+        <h2>Spa</h2>
+    </div>
+    <div class="citybreak vacas" id="city">
+        <h2>City Break</h2>
+    </div>
+    <div class="candykingdom vacas" id="candy">
+        <h2>Candy Kingdom</h2>
+    </div>
+</main>
+<script src="menu.js"></script>
+<script src="https://kit.fontawesome.com/0bc510ca7a.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
