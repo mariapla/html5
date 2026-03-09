@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-weight: 400;
+    color: ghostwhite;
+    font-size: 5em;
+    padding-left: 2em;
+}
+
+.playa {
+    background-image: url(img/playa.jpg);
+
+
+}
+
+.montana {
+    background-image: url(img/montana.jpg);
+}
+
+.luna {
+    background-image: url(img/luna.jpg);
+}
+
+.desierto {
+    background-image: url(img/desierto.jpg);
+}
+
+.spa {
+    background-image: url(img/spa.jpg);
+}
+
+.candykingdom {
+    background-image: url(img/candy.png);
+}
+
+.citybreak {
+    background-image: url(img/city.jpg);
+}
+
+.vacas {
+    height: 101vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    height: 15vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    width: 100vw;
+    position: fixed;
+    top: 0;
+}
+
+.burger,
+.salir {
+    display: none;
+}
+
+.navegacion {
+    display: flex;
+    width: 100%;
+
+}
+
+.items {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item a {
+    text-decoration: none;
+    color: ghostwhite;
+    font-size: 2em;
+
+}
+
+.item a:hover {
+    color: aqua;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 850px) {
+    nav {
+        flex-direction: column;
+        position: fixed;
+        right: 0;
+        width: 40%;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 2em;
+        display: flex;
+        justify-content: flex-start;
+        align-items: end;
+        height: 100vh;
+    }
+
+    .burger,
+    .salir {
+        display: block;
+        color: ghostwhite;
+        cursor: pointer;
+    }
+
+    .burger:hover, .salir:hover {
+        color: orange;
+    }
+
+    .salir {
+        position: fixed;
+        right: 2em;
+        
+    }
+
+    .navegacion {
+        display: none;
+        flex-direction: column;
+    }
+
+    .items {
+        flex-direction: column;
+        height: 100vh;
+        align-items: flex-end;
+        margin-top: 2em;
+    }
+
+    .mostrar {
+        display: block;
+    }
+}
