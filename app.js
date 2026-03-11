@@ -9,6 +9,8 @@ const EJERCICIOS = [
  { titulo: "API Meteo", url: "ejercicios/meteo/", cat: "API" },
  { titulo: "DNI", url: "ejercicios/DNI/", cat: "HTML+CSS+JS" },
  { titulo: "Cuenta atrás", url: "ejercicios/cuentaAtras/", cat: "HTML+CSS+JS" },
+ { titulo: "Vacaciones", url: "ejercicios/vacaciones/", cat: "HTML+CSS" },
+ { titulo: "Excuse Lab", url: "ejercicios/detector/", cat: "HTML+CSS+JS" },
 ];
 
 const grid = document.getElementById("grid");
@@ -127,6 +129,7 @@ window.addEventListener("resize", () => {
   t = setTimeout(render, 120);
 
 });
+
 
 
 
