@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>ExcuseLab</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="img/favicon-excuselab.svg" type="image/x-icon">
+
+</head>
+
+
+<body>
+
+    <header class="cabecera">
+
+        <div class="container barra-navegacion">
+
+            <a class="logo" href="#">Excuse<span>Lab</span></a>
+             
+
+            <nav class="enlaces-navegacion">
+
+                <a href="#problema">Problema</a>
+                <a href="#funciona">Cómo funciona</a>
+                <a href="#funciones">Funciones</a>
+                <a href="#ranking">Top excusas</a>
+
+                <a class="btn btn-info btn-sm" href="#analizar">
+                    Analizar
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <section class="hero">
+
+        <div class="container contenido-hero">
+
+            <div class="texto-hero">
+
+                <h1>Detector de excusas estudiantiles</h1>
+
+                <p class="subtitulo-hero">
+
+                    Pega la excusa de un alumno y calcula su credibilidad.
+
+                </p>
+
+                <a href="#analizar" class="btn btn-warning btn-lg">
+
+                    Analizar excusa
+
+                </a>
+
+            </div>
+
+
+            <div class="mock-hero">
+
+                <div class="tarjeta-resultado">
+
+                    <h4>Resultado</h4>
+
+                    <p>
+
+                        Credibilidad:
+
+                        <strong id="porcentajeMock">
+
+                            42%
+
+                        </strong>
+
+                    </p>
+
+                    <p id="etiquetaMock">
+
+                        Excusa dudosa
+
+                    </p>
+
+                    <p id="mensajeMock">
+
+                        Podría ser verdad... pero suena sospechoso.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="problema" class="seccion">
+
+        <div class="container">
+
+            <h2>El problema</h2>
+
+            <div class="contenedor-tarjetas">
+
+                <div class="card">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+
+                            Excusas repetidas
+
+                        </h5>
+
+                        <p class="card-text">
+
+                            Cada semana aparecen las mismas historias.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="card">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+
+                            Archivos desaparecidos
+
+                        </h5>
+
+                        <p class="card-text">
+
+                            Trabajos que misteriosamente se borran.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="card">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+
+                            Historias improbables
+
+                        </h5>
+
+                        <p class="card-text">
+
+                            Ordenadores rotos, internet caído, perros hambrientos.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="seccion-parallax">
+
+        <h2>
+
+            Analizadas más de 12.000 excusas estudiantiles
+
+        </h2>
+
+    </section>
+
+
+    <section id="funciona" class="seccion seccion-alternativa">
+
+        <div class="container">
+
+            <h2>Cómo funciona</h2>
+
+            <div class="contenedor-pasos">
+
+                <div class="paso">
+
+                    <h3>1</h3>
+
+                    <p>
+
+                        Pega la excusa.
+
+                    </p>
+
+                </div>
+
+
+                <div class="paso">
+
+                    <h3>2</h3>
+
+                    <p>
+
+                        Analizamos el texto.
+
+                    </p>
+
+                </div>
+
+
+                <div class="paso">
+
+                    <h3>3</h3>
+
+                    <p>
+
+                        Calculamos la credibilidad.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="funciones" class="seccion">
+
+        <div class="container">
+
+            <h2>Funciones</h2>
+
+            <div class="contenedor-tarjetas">
+
+                <div class="card">
+
+                    <div class="card-body">
+
+                        <h5>
+
+                            Detector de excusas clásicas
+
+                        </h5>
+
+                        <p>
+
+                            Reconoce patrones comunes.
+
+                        </p>
+
+                        <span class="badge bg-warning text-dark">
+
+                            clásica
+
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="card">
+
+                    <div class="card-body">
+
+                        <h5>
+
+                            Puntuación de credibilidad
+
+                        </h5>
+
+                        <p>
+
+                            Calcula un porcentaje.
+
+                        </p>
+
+                        <span class="badge bg-info">
+
+                            score
+
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="card">
+
+                    <div class="card-body">
+
+                        <h5>
+
+                            Respuesta sugerida
+
+                        </h5>
+
+                        <p>
+
+                            Te recomienda cómo responder.
+
+                        </p>
+
+                        <span class="badge bg-success">
+
+                            respuesta
+
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="ranking" class="seccion seccion-alternativa">
+
+        <div class="container">
+
+            <h2>
+
+                Top excusas detectadas
+
+            </h2>
+
+            <ul class="lista-excusas">
+
+                <li>
+
+                    Se me borró el archivo — 18%
+
+                </li>
+
+                <li>
+
+                    Se fue la luz — 33%
+
+                </li>
+
+                <li>
+
+                    Lo subí pero no se guardó — 9%
+
+                </li>
+
+                <li>
+
+                    Mi perro se comió el portátil — 0%
+
+                </li>
+
+            </ul>
+
+        </div>
+
+    </section>
+
+
+    <section id="analizar" class="seccion">
+
+        <div class="container zona-analisis">
+
+            <h2>
+
+                Analiza una excusa
+
+            </h2>
+
+            <input id="entradaExcusa" class="form-control form-control-lg" placeholder="Escribe aquí la excusa...">
+
+
+            <div class="contenedor-botones">
+
+                <button id="botonAnalizar" class="btn btn-warning btn-lg">
+
+                    Analizar
+
+                </button>
+
+
+                <button id="botonAleatoria" class="btn btn-outline-warning btn-lg">
+
+                    Excusa aleatoria
+
+                </button>
+
+            </div>
+
+
+            <div id="resultadoAnalisis" class="resultado">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer class="pie">
+
+        <p>
+
+            El copyright está sobrevalorado © 2026
+
+        </p>
+
+    </footer>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
