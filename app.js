@@ -11,6 +11,7 @@ const EJERCICIOS = [
  { titulo: "Cuenta atrás", url: "ejercicios/cuentaAtras/", cat: "HTML+CSS+JS" },
  { titulo: "Vacaciones", url: "ejercicios/vacaciones/", cat: "HTML+CSS" },
  { titulo: "Excuse Lab", url: "ejercicios/detector/", cat: "HTML+CSS+JS" },
+ { titulo: "Palíndromo", url: "ejercicios/palindromo/", cat: "HTML+CSS+JS" },
 ];
 
 const grid = document.getElementById("grid");
@@ -129,6 +130,7 @@ window.addEventListener("resize", () => {
   t = setTimeout(render, 120);
 
 });
+
 
 
 
