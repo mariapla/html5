@@ -1,0 +1,239 @@
+body {
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#3f4aa0;
+    
+    color: white;
+    
+
+}
+
+
+.cabecera {
+
+    position: sticky;
+    top: 0;
+    background: #262c52;
+    padding: 15px 0;
+    z-index: 1000;
+   border-bottom:2px solid #ff2a8a;
+  box-shadow:0 4px 15px rgba(255,42,138,0.6);
+
+}
+
+.logo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    color: ghostwhite;
+    text-decoration: none;
+}
+
+.logo span{
+    color:#ff2266;
+ 
+}
+
+
+.barra-navegacion {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.enlaces-navegacion a {
+
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1.3em;
+
+}
+
+.enlaces-navegacion a:hover{
+    color: rgb(241, 34, 103);
+}
+
+
+.hero {
+
+    padding: 120px 0;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f");
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.contenido-hero {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+
+}
+
+
+.texto-hero {
+
+    max-width: 500px;
+
+}
+
+
+.mock-hero {
+
+    width: 300px;
+
+}
+
+
+.tarjeta-resultado {
+
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+
+.seccion {
+
+    padding: 80px 0;
+    text-align: center;
+
+}
+
+
+.seccion-alternativa {
+
+    background:#2f397f;
+    
+
+}
+
+
+.contenedor-tarjetas {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+
+    margin-top: 40px;
+
+}
+
+
+.card {
+
+    width: 250px;
+    transition: 0.3s;
+    background:rgba(235, 231, 231, 0.993);
+
+border:1px solid rgba(255,255,255,0.2);
+
+box-shadow:0 10px 25px rgba(0,0,0,0.4);
+
+}
+
+
+.card:hover {
+
+    transform: translateY(-8px);
+    box-shadow:0 15px 35px rgba(0,0,0,0.5);
+
+}
+
+
+.seccion-parallax {
+
+    height: 350px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background:
+
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+
+        url(img/aedrian-salazar-ECt01A5HZtw-unsplash.jpg);
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    font-size: 30px;
+
+}
+
+
+.contenedor-pasos {
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+
+}
+
+
+.lista-excusas {
+
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;
+
+}
+
+
+.lista-excusas li {
+
+    margin: 10px 0;
+    font-size: 18px;
+
+}
+
+
+.zona-analisis {
+
+    max-width: 700px;
+
+}
+
+
+.contenedor-botones {
+
+    margin-top: 20px;
+
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+
+.resultado {
+
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+
+.pie {
+
+    background: black;
+    text-align: center;
+    padding: 20px;
+
+    margin-top: 40px;
+
+}
