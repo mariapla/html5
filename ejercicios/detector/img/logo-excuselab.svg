@@ -1,0 +1,6 @@
+<svg id="main-svg" viewBox="0 0 120 120" class="w-full h-full drop-shadow-[0_0_15px_rgba(0,255,102,0.4)]" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="35" fill="none" stroke="#00FF66" stroke-width="8"></circle>
+                            <line x1="75" y1="75" x2="105" y2="105" stroke="#00FF66" stroke-width="10" stroke-linecap="round"></line>
+                            <line x1="35" y1="35" x2="65" y2="65" stroke="#FF0055" stroke-width="8" stroke-linecap="round"></line>
+                            <line x1="65" y1="35" x2="35" y2="65" stroke="#FF0055" stroke-width="8" stroke-linecap="round"></line>
+                        </svg>
