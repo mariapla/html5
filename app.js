@@ -14,6 +14,7 @@ const EJERCICIOS = [
  { titulo: "Palíndromo", url: "ejercicios/palindromo/", cat: "HTML+CSS+JS" },
  { titulo: "Contador", url: "ejercicios/contador/", cat: "HTML+CSS+JS" },
   { titulo: "Hamburger Menú básico", url: "ejercicios/hamburger/", cat: "HTML+CSS+JS" },
+ { titulo: "Memory", url: "ejercicios/memory/", cat: "Juegos" },
 ];
 
 const grid = document.getElementById("grid");
@@ -132,6 +133,7 @@ window.addEventListener("resize", () => {
   t = setTimeout(render, 120);
 
 });
+
 
 
 
