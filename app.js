@@ -1,19 +1,19 @@
 const EJERCICIOS = [
  
-  { titulo: "Big Boss Estilos", url: "ejercicios/bigBossEstilos/", cat: "HTML+CSS" },
-  { titulo: "Adivinar Número", url: "ejercicios/adivinarNumero/", cat: "HTML+CSS+JS" },
-  { titulo: "Carga", url: "ejercicios/carga/", cat: "HTML+CSS+JS" },
-  { titulo: "Color aleatorio", url: "ejercicios/fondoAleatorio/", cat: "HTML+CSS+JS" },
+  { titulo: "Big Boss Estilos", url: "ejercicios/bigBossEstilos/", cat: "HTML5" },
+  { titulo: "Adivinar Número", url: "ejercicios/adivinarNumero/", cat: "HTML5" },
+  { titulo: "Carga", url: "ejercicios/carga/", cat: "HTML5" },
+  { titulo: "Color aleatorio", url: "ejercicios/fondoAleatorio/", cat: "HTML5" },
   { titulo: "API de pelis", url: "ejercicios/APIpelis/", cat: "API" },
  { titulo: "API de Chuck Norris", url: "ejercicios/APIchuckNorris/", cat: "API" },
  { titulo: "API Meteo", url: "ejercicios/meteo/", cat: "API" },
- { titulo: "DNI", url: "ejercicios/DNI/", cat: "HTML+CSS+JS" },
- { titulo: "Cuenta atrás", url: "ejercicios/cuentaAtras/", cat: "HTML+CSS+JS" },
- { titulo: "Vacaciones", url: "ejercicios/vacaciones/", cat: "HTML+CSS" },
- { titulo: "Excuse Lab", url: "ejercicios/detector/", cat: "HTML+CSS+JS" },
- { titulo: "Palíndromo", url: "ejercicios/palindromo/", cat: "HTML+CSS+JS" },
- { titulo: "Contador", url: "ejercicios/contador/", cat: "HTML+CSS+JS" },
-  { titulo: "Hamburger Menú básico", url: "ejercicios/hamburger/", cat: "HTML+CSS+JS" },
+ { titulo: "DNI", url: "ejercicios/DNI/", cat: "HTML5" },
+ { titulo: "Cuenta atrás", url: "ejercicios/cuentaAtras/", cat: "HTML5" },
+ { titulo: "Vacaciones", url: "ejercicios/vacaciones/", cat: "HTML5" },
+ { titulo: "Excuse Lab", url: "ejercicios/detector/", cat: "HTML5" },
+ { titulo: "Palíndromo", url: "ejercicios/palindromo/", cat: "HTML5" },
+ { titulo: "Contador", url: "ejercicios/contador/", cat: "HTML5" },
+  { titulo: "Hamburger Menú básico", url: "ejercicios/hamburger/", cat: "HTML5" },
  { titulo: "Memory", url: "ejercicios/memory/", cat: "Juegos" },
 ];
 
@@ -133,6 +133,7 @@ window.addEventListener("resize", () => {
   t = setTimeout(render, 120);
 
 });
+
 
 
 
