@@ -16,6 +16,7 @@ const EJERCICIOS = [
   { titulo: "Hamburger Menú básico", url: "ejercicios/hamburger/", cat: "HTML5" },
  { titulo: "Memory", url: "ejercicios/memory/", cat: "Juegos" },
   { titulo: "API Estudio Ghibli", url: "ejercicios/ghibli/", cat: "API" },
+ { titulo: "API Recetas", url: "ejercicios/recetas/", cat: "API" },
 ];
 
 const grid = document.getElementById("grid");
