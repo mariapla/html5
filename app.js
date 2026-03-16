@@ -15,7 +15,7 @@ const EJERCICIOS = [
  { titulo: "Contador", url: "ejercicios/contador/", cat: "HTML5" },
   { titulo: "Hamburger Menú básico", url: "ejercicios/hamburger/", cat: "HTML5" },
  { titulo: "Memory", url: "ejercicios/memory/", cat: "Juegos" },
-  { titulo: "API Estudio Ghibli", url: "ejercicios/ghibli/", cat: "API" },
+  { titulo: "API Estudio Ghibli", url: "ejercicios/Ghibli/", cat: "API" },
  { titulo: "API Recetas", url: "ejercicios/recetas/", cat: "API" },
 ];
 
