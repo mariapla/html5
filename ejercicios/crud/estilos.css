@@ -1,0 +1,24 @@
+.inscripciones {
+    width: 50%;
+    margin: auto;
+}
+
+
+.table-dark tr th{
+    background-color: rgb(250, 160, 175);
+    color: rgb(54, 53, 53);
+    width: 25%;
+}
+
+td .acciones-botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+td .acciones-botones button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
