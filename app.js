@@ -18,6 +18,7 @@ const EJERCICIOS = [
   { titulo: "API Estudio Ghibli", url: "ejercicios/Ghibli/", cat: "API" },
  { titulo: "API Recetas", url: "ejercicios/recetas/", cat: "API" },
  { titulo: "CRUD", url: "ejercicios/crud/", cat: "HTML5" },
+ { titulo: "CRUD", url: "ejercicios/repasoJS/", cat: "HTML5" },
 ];
 
 const grid = document.getElementById("grid");
