@@ -1,7 +1,7 @@
 const EJERCICIOS = [
  
   { titulo: "Big Boss Estilos", url: "ejercicios/bigBossEstilos/", cat: "HTML5" },
-  { titulo: "Adivinar Número", url: "ejercicios/adivinarNumero/", cat: "HTML5" },
+  { titulo: "Adivinar Número", url: "ejercicios/adivinarNumero/", cat: "Juegos" },
   { titulo: "Carga", url: "ejercicios/carga/", cat: "HTML5" },
   { titulo: "Color aleatorio", url: "ejercicios/fondoAleatorio/", cat: "HTML5" },
   { titulo: "API de pelis", url: "ejercicios/APIpelis/", cat: "API" },
