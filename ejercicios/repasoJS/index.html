@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="estilos.css">
+  <title>Repaso JavaScript</title>
+  
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div class="brand">
+        <h1>Repaso molón</h1>
+        <h2>JavaScript es tu amigo</h2>
+      </div>
+
+      <div class="top-tools">
+        <div class="search-wrap">
+          <input id="buscador" class="search" type="search" placeholder="Buscar tema, concepto o palabra clave..." />
+          <button id="modo" class="icon-btn" title="Cambiar modo">◐</button>
+        </div>
+        <select id="filtro" class="select">
+          <option value="todos">Mostrar todos los bloques</option>
+          <option value="fundamentos">Fundamentos</option>
+          <option value="logica">Lógica</option>
+          <option value="dom">DOM y eventos</option>
+          <option value="utiles">Objetos útiles</option>
+        </select>
+      </div>
+    </header>
+
+    <div class="dashboard">
+      <main>
+        <p class="label">Esto hay que saberlo</p>
+        <div class="tiles" id="tiles"></div>
+      </main>
+
+      
+    </div>
+  </div>
+
+  <div class="panel" id="panel">
+    <div class="panel-inner">
+      <article class="lesson">
+        <button class="close" id="cerrar">Cerrar ×</button>
+        <div class="lesson-kicker"><span id="lessonNum"></span><span id="lessonGroup"></span></div>
+        <h2 id="lessonTitle"></h2>
+        <div class="lesson-grid">
+          <div class="content-block">
+            <h3>Explicación</h3>
+            <p id="lessonExplanation"></p>
+          </div>
+          <div class="content-block">
+            <h3>Interpretación práctica</h3>
+            <p id="lessonCustom"></p>
+          </div>
+          <div class="content-block full">
+            <h3>Ejemplo de código</h3>
+            <pre><code id="lessonCode"></code></pre>
+          </div>
+          <div class="content-block full">
+            <h3>¿Qué hace este código?</h3>
+            <p id="lessonCodeExplanation"></p>
+          </div>
+        </div>
+        <div class="panel-actions">
+         
+          <button class="icon-btn" id="anterior">← Anterior</button>
+          <button class="icon-btn" id="siguiente">Siguiente →</button>
+        </div>
+      </article>
+
+      <aside class="demo-zone">
+        <h3>Prueba interactiva</h3>
+        <p id="demoText">Modifica valores para ver el resultado.</p>
+        <div id="demoControls"></div>
+        <button class="primary-btn" id="ejecutarDemo">Ejecutar demo</button>
+        <div class="demo-result" id="demoResult">Resultado...</div>
+      </aside>
+    </div>
+  </div>
+
+  <script src="app.js">
+    
+  </script>
+</body>
+</html>
