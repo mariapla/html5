@@ -19,6 +19,7 @@ const EJERCICIOS = [
  { titulo: "API Recetas", url: "ejercicios/recetas/", cat: "API" },
  { titulo: "CRUD", url: "ejercicios/crud/", cat: "HTML5" },
  { titulo: "Repaso JS", url: "ejercicios/repasoJS/", cat: "HTML5" },
+  { titulo: "Calculadora Molona", url: "ejercicios/calculadora/", cat: "HTML5" },
 ];
 
 const grid = document.getElementById("grid");
