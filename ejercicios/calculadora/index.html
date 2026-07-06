@@ -1,1 +1,69 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="img/calculator-solid-full.svg" type="image/x-icon">
+    <title>Calcu molona</title>
+</head>
+
+<body>
+
+    <main class="calculadora">
+
+        <h1>Calcula molona</h1>
+
+        <section class="zona-nombre">
+            <input type="text" id="nombre" placeholder="Tu nombre">
+            <button onclick="saludar()">Saludar</button>
+
+            <p id="saludo"></p>
+        </section>
+
+        <section class="zona-calculadora">
+
+            <div class="teclado">
+                <button onclick="escribir('7')">7</button>
+                <button onclick="escribir('8')">8</button>
+                <button onclick="escribir('9')">9</button>
+                <button onclick="escribir('/')">÷</button>
+
+                <button onclick="escribir('4')">4</button>
+                <button onclick="escribir('5')">5</button>
+                <button onclick="escribir('6')">6</button>
+                <button onclick="escribir('*')">×</button>
+
+                <button onclick="escribir('1')">1</button>
+                <button onclick="escribir('2')">2</button>
+                <button onclick="escribir('3')">3</button>
+                <button onclick="escribir('-')">−</button>
+
+                <button onclick="escribir('0')">0</button>
+                <button onclick="escribir('.')">.</button>
+                <button onclick="borrarPantalla()">C</button>
+                <button onclick="escribir('+')">+</button>
+            </div>
+
+            <button class="boton-igual" onclick="calcular()">=</button>
+
+            <input type="text" id="pantalla" placeholder="Resultado" readonly>
+
+        </section>
+
+        <section class="extras">
+            <button onclick="modoFiesta()">Modo fiesta</button>
+            <button onclick="limpiarTodo()">Limpiar todo</button>
+        </section>
+
+        <p id="comentario"></p>
+
+    </main>
+
+
+    <script src="calcu.js"></script>
+</body>
+
+</html>
