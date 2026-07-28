@@ -1,6 +1,6 @@
 
 
-let vacaciones = new Date('06/21/2026 0:00 AM');
+let vacaciones = new Date('07/31/2026 0:00 AM');
 
 function cuentaAtras()
 {
